@@ -21,19 +21,19 @@ var tsm = {
   }
   setTopLane: function(newTopLane) {
     this.toplane = newTopLane;
-  }
+  },
   setJungle: function(newJungle) {
     this.jungle = newJungle;
-  }
+  },
   setMidLane: function(newMidLane) {
     this.midLane = newMidLane;
-  }
+  },
   setADC: function(newADC) {
     this.adc = newADC;
-  }
+  },
   setSupport: function(newSupport) {
     this.support = newSupport;
-  }
+  },
   getCreatedAsNumber: function() {
     return parseInt(this.created);
   }
